@@ -9,7 +9,7 @@
 
 You can install the npm package using the following command:
 
-npm install my-button-package
+npm i ahmetberktass
 
 ## Usage
 
@@ -42,10 +42,10 @@ type: Prop used to determine the style of the button. Values: "primary", "defaul
 License
 My Button Package is licensed under the MIT License.
 
-Contributing
+## Contributing
 If you find any issues or would like to contribute to the development, please feel free to open a pull request or issue on the GitHub repository.
 
-Contact
+## Contact
 You can contact me for any questions, suggestions, or feedback at: [email protected]
 
 You can adapt this example README file to your own project and add the necessary information about your project. Remember that the README file is an important documentation piece that explains the usage, installation, props, and license of your project and can make it easier for your users to use your project.
