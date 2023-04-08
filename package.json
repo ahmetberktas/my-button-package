@@ -1,0 +1,55 @@
+{
+  "name": "ahmetberktass",
+  "version": "0.0.1",
+  "private": false,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "[![npm version](https://img.shields.io/npm/v/my-button-package.svg)](https://www.npmjs.com/package/my-button-package) [![license](https://img.shields.io/npm/l/my-button-package.svg)](https://github.com/yourusername/my-button-package/blob/main/LICENSE)",
+  "main": "Button.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetberktas/my-button-package.git"
+  },
+  "keywords": [
+    "button",
+    "components"
+  ],
+  "author": "Ahmet Berktas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmetberktas/my-button-package/issues"
+  },
+  "homepage": "https://github.com/ahmetberktas/my-button-package#readme"
+}

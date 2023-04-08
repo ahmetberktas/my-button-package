@@ -1,0 +1,87 @@
+/* App.css */
+
+/* Genel stil ayarları */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right top, #2980b9, #6dd5fa, #b8e9fc, #f1f9fe);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Butonlar için ortak stil ayarları */
+.button {
+  display: inline-block;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+/* Primary buton stil ayarları */
+.button.primary {
+  background-color: #2980b9;
+  color: #fff;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.button.primary:hover {
+  background-color: #22679d;
+}
+
+/* Default buton stil ayarları */
+.button.default {
+  background-color: #f8f9fa;
+  color: #212529;
+  border: 1px solid #ccc;
+}
+
+.button.default:hover {
+  background-color: #e9ecef;
+}
+
+/* Dashed buton stil ayarları */
+.button.dashed {
+  border: 1px dashed #2980b9;
+  color: #2980b9;
+}
+
+.button.dashed:hover {
+  background-color: #f0faff;
+  color: #22679d;
+}
+
+/* Text buton stil ayarları */
+.button.text {
+  background-color: transparent;
+  color: #212529;
+  border: none;
+}
+
+.button.text:hover {
+  text-decoration: underline;
+}
+
+/* Link buton stil ayarları */
+.button.link {
+  background-color: transparent;
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+.button.link:hover {
+  color: #22679d;
+}
